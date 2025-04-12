@@ -2,7 +2,7 @@ import React from 'react'
 const Home=()=> {
   return (
     <div>
-      <div className="container">
+      <div className="container-con">
      <div className="col-1">
         <h1 className="shilla">
        <span> I am </span>
