@@ -1,4 +1,5 @@
 import React from 'react'
+import pic51 from '../img/pic51.jpg'; // Adjust the path based on your folder structure
 const Home=()=> {
   return (
     <div>
@@ -14,6 +15,11 @@ const Home=()=> {
         </p>
      </div>
      </div>
+
+     <div className="heritage">
+  <img src={pic51} alt="Heritage" className="small-image" />
+</div>
+     
     </div>
     
   )
