@@ -151,16 +151,16 @@
 }
 
 .small-image{
-    width: 20%;
-    height: 20%;
-    position: relative;
-    right: 20%;
-    bottom: 530px;
+    width: 40vh;
+    height: 50vh;
+    position: absolute;
+    left: 30%;
+    bottom: 90px;
     border-radius: 10px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-/* Admin darsboard */
+                /* Admin darsboard */
 
 .admin-dashboard {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -323,3 +323,53 @@
     background-color: #f3f4f6;
     color: #6b7280;
   }
+
+
+  /* Services styles */
+
+  .title2{
+    position: absolute;
+    top: 100%;
+    left: 41.5%;
+}
+
+.title2 h2 span{
+  color: rgb(131, 201, 25);
+}
+
+
+.wiz{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 12px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+  line-height: 1.5;
+}

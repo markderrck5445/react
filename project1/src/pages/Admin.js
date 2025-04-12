@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function AdminDashboard() {
+function Admin() {
   const [activeTab, setActiveTab] = useState('overview');
 
   // Mock data
@@ -170,4 +170,4 @@ function AdminDashboard() {
   );
 }
 
-export default AdminDashboard;
+export default Admin;
