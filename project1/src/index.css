@@ -120,10 +120,6 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.926);
 }
 
-.col-1 h1 span{
-    color: rgb(131, 201, 25);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.926);
-}
 
 .col-1 p{
     width: 500px;
@@ -131,7 +127,7 @@
     position: relative;
     left: 60%;
     color: white;
-    top: 90px;
+    top: 200px;
     /* text-shadow: 2px 2px 5px rgb(131, 201, 25); */
     color: black;
     line-height: 22px;
@@ -142,7 +138,7 @@
 
 .shilla{
     left: 55%;
-    top: 90px;
+    top: 50%;
     color: black;
     position: absolute;
 }
