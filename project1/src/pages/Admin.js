@@ -22,7 +22,7 @@ function Admin() {
         <div className="admin-actions">
           <button className="new-post-btn">New Post</button>
           <div className="admin-profile">
-            <img src="/api/placeholder/40/40" alt="Admin" />
+            
             <span>Admin User</span>
           </div>
         </div>

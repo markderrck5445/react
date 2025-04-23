@@ -2,168 +2,145 @@ import React from 'react';
 function About({ onBack }) {
   return (
     <div className="about-page">
-      <button className="back-button" onClick={onBack}>← Back to Blog</button>
-      
       <section className="about-section">
         <h2>About Us</h2>
-        
         <div className="about-container">
-          <div className="about-image">
-            {/* Placeholder for company image */}
-            <div className="image-placeholder">
-              <span>Company Image</span>
-            </div>
-          </div>
-          
           <div className="about-content">
             <h3>Our Story</h3>
             <p>
-              Founded in 2023, our blog and web development company has been dedicated to sharing knowledge
-              and creating exceptional digital experiences. What started as a passion project between
-              three friends with backgrounds in software development, design, and content creation
-              has grown into a trusted resource for web developers and businesses alike.
+              Founded in 2023, our studio has been dedicated to capturing creativity and delivering exceptional visual experiences. What started as a small photography and videography studio has grown into a full-fledged creative hub, offering a wide range of services for individuals and businesses alike.
             </p>
-            
             <p>
-              We believe in the power of well-crafted content and intuitive design to transform ideas
-              into impactful digital solutions. Our team combines technical expertise with creative 
-              thinking to deliver results that exceed expectations.
+              We believe in the power of storytelling through visuals. Whether it's a cinematic video, a professional photoshoot, or a creative branding project, our team combines technical expertise with artistic vision to bring your ideas to life.
             </p>
-            
             <div className="mission-vision">
               <div className="mission">
                 <h4>Our Mission</h4>
                 <p>
-                  To empower individuals and businesses with practical knowledge and digital solutions
-                  that drive growth and foster innovation.
+                  To empower individuals and businesses by creating stunning visual content that tells their unique stories and leaves a lasting impression.
                 </p>
               </div>
-              
               <div className="vision">
                 <h4>Our Vision</h4>
                 <p>
-                  To be the go-to resource for web development insights and create digital experiences 
-                  that make a lasting impact.
+                  To be the leading creative studio, known for innovation, quality, and the ability to transform ideas into captivating visual experiences.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="team-section">
         <h3>Our Team</h3>
         <div className="team-container">
           <div className="team-member">
             <div className="member-avatar">JD</div>
             <h4>Jane Doe</h4>
-            <p className="member-title">Founder & Lead Developer</p>
+            <p className="member-title">Founder & Lead Photographer</p>
             <p className="member-bio">
-              Jane has over 10 years of experience in web development with expertise in React and modern 
-              JavaScript frameworks.
+              Jane has over 10 years of experience in photography and videography, specializing in capturing moments that tell compelling stories.
             </p>
           </div>
-          
+
           <div className="team-member">
             <div className="member-avatar">JS</div>
             <h4>John Smith</h4>
             <p className="member-title">Creative Director</p>
             <p className="member-bio">
-              John brings his design expertise to ensure all our projects are not just functional, 
-              but visually stunning and user-friendly.
+              John brings his design expertise to ensure all our projects are visually stunning, innovative, and aligned with our clients' visions.
             </p>
           </div>
-          
+
           <div className="team-member">
             <div className="member-avatar">AJ</div>
             <h4>Alex Johnson</h4>
             <p className="member-title">Content Strategist</p>
             <p className="member-bio">
-              Alex oversees our content strategy, ensuring all our blog posts and client content 
-              are engaging, informative, and optimized for SEO.
+              Alex oversees our content strategy, ensuring all our visual and written content is engaging, impactful, and tailored to our clients' needs.
             </p>
           </div>
         </div>
       </section>
-      
+
       <section className="services-section">
         <h3>Our Services</h3>
         <p className="services-intro">
-          We offer a comprehensive range of web development and content services to help your business thrive online.
+          We offer a comprehensive range of creative studio services to help you bring your vision to life.
         </p>
-        
         <div className="services-container">
           <div className="service-item">
-            <div className="service-icon">📱</div>
+            <div className="service-icon">📸</div>
             <div className="service-details">
-              <h4>Web Development</h4>
+              <h4>Photography</h4>
               <p>
-                Custom websites built with React and modern frameworks, focusing on performance, 
-                responsive design, and exceptional user experience.
+                Professional photoshoots for events, portraits, and commercial projects.
               </p>
               <ul>
-                <li>Single Page Applications</li>
-                <li>E-commerce Websites</li>
-                <li>Portfolio Sites</li>
-                <li>Corporate Websites</li>
+                <li>Event Photography</li>
+                <li>Portrait Photography</li>
+                <li>Product Photography</li>
+                <li>Commercial Shoots</li>
               </ul>
             </div>
           </div>
-          
+
           <div className="service-item">
-            <div className="service-icon">✍️</div>
+            <div className="service-icon">🎥</div>
             <div className="service-details">
-              <h4>Content Creation</h4>
+              <h4>Videography</h4>
               <p>
-                High-quality content tailored to your audience and optimized for search engines.
+                High-quality video production for events, branding, and storytelling.
               </p>
               <ul>
-                <li>Blog Articles</li>
-                <li>Technical Tutorials</li>
-                <li>Product Descriptions</li>
-                <li>Email Newsletters</li>
+                <li>Event Videography</li>
+                <li>Corporate Videos</li>
+                <li>Documentaries</li>
+                <li>Promotional Videos</li>
               </ul>
             </div>
           </div>
-          
+
           <div className="service-item">
-            <div className="service-icon">🔍</div>
+            <div className="service-icon">🎨</div>
             <div className="service-details">
-              <h4>SEO Optimization</h4>
+              <h4>Creative Design</h4>
               <p>
-                Improve your site's visibility and ranking in search engine results.
+                Custom graphic design and branding solutions to elevate your business.
               </p>
               <ul>
-                <li>Keyword Research</li>
-                <li>On-Page SEO</li>
-                <li>Technical SEO Audits</li>
-                <li>Performance Optimization</li>
+                <li>Logo Design</li>
+                <li>Brand Identity</li>
+                <li>Marketing Materials</li>
+                <li>Social Media Graphics</li>
               </ul>
             </div>
           </div>
-          
+
           <div className="service-item">
-            <div className="service-icon">📊</div>
+            <div className="service-icon">💡</div>
             <div className="service-details">
-              <h4>Digital Marketing</h4>
+              <h4>Studio Rentals</h4>
               <p>
-                Comprehensive digital marketing strategies to grow your online presence.
+                Fully equipped studio spaces for your photography and videography needs.
               </p>
               <ul>
-                <li>Social Media Management</li>
-                <li>Email Marketing Campaigns</li>
-                <li>Content Marketing</li>
-                <li>Analytics & Reporting</li>
+                <li>Photography Studios</li>
+                <li>Video Production Studios</li>
+                <li>Lighting Equipment</li>
+                <li>Props and Backdrops</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="cta-section">
-        <h3>Ready to Work Together?</h3>
-        <p>Let's discuss how we can help your business grow online.</p>
-        <button className="/contact">Contact Us</button>
+        <h3>Ready to Create Something Amazing?</h3>
+        <p>Contact us today to discuss your project and bring your vision to life.</p>
+        <button className="contact-button">
+          <a href="/contact">Contact Us</a>
+        </button>
       </section>
     </div>
   );

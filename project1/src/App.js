@@ -5,8 +5,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Admin from './pages/Admin';
-import Blog from './pages/Blog';
 import Services from './pages/Services';
+import Signup from './pages/signup';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,10 +21,10 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
            <Route path="/admin" element={<Admin/>} />
-           <Route path="/blog" element={<Blog/>} />
            <Route path="/services" element={<Services/>} />
-           <Route path="/blog/:slug" element={<Blog/>} />
-           <Route path="/about/:id" element={<About/>} />
+           <Route path="/about/" element={<About/>} />
+           <Route path="/signup" element={<Signup/>} />
+           <Route path="/footer" element={<Footer/>} />
           </Routes>
         </div>
       </div>
