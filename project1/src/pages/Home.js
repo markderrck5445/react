@@ -5,6 +5,7 @@ import pic10 from '../img/pic10.jpg';
 import pic8 from '../img/pic8.jpg';
 import pic9 from '../img/pic9.jpg';
 import pic11 from '../img/pic11.jpg';
+import pic1 from '../img/pic1.jpg';
 const Home=()=> {
   return (
     <div>
@@ -33,9 +34,9 @@ const Home=()=> {
 <div className="wiz">
         <div className="card">
           <img src={pic7} alt="Film Making" />
-          <h2>Film Making</h2>
+          <h2>Film Production</h2>
           <p>
-            Our film making services bring your stories to life with professional cinematography, creative direction, and high-quality production.
+            Our film Production services bring your stories to life with professional cinematography, creative direction, and high-quality production.
           </p>
         </div>
 
@@ -153,7 +154,7 @@ const Home=()=> {
     </div>
     <div className="infos">
       <div className="hello">
-        <img src="img/pi3.jpg" alt="Testimonial 1" />
+      <img src={pic1}/>
       </div>
       <p className="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -180,7 +181,7 @@ const Home=()=> {
     </div>
     <div className="infos">
       <div className="hello">
-        <img src="img/pic9.jpg" alt="Testimonial 2" />
+      <img src={pic1}/>
       </div>
       <p className="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -207,7 +208,7 @@ const Home=()=> {
     </div>
     <div className="infos">
       <div className="hello">
-        <img src="img/pic9.jpg" alt="Testimonial 3" />
+      <img src={pic1}/>
       </div>
       <p className="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
