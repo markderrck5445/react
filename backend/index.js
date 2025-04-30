@@ -63,8 +63,8 @@ app.get('/', (req, res) => {
   res.send('API is running...');
 });
 
-
-
+const authRoute=require('./Routes/Auth');
+app.use('/api/auth',authRoute);
 // Handle 404 errors
 app.use(async (req, res, next) => {
   next(createError(404, 'Not Found'));
