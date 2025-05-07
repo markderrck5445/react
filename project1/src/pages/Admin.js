@@ -7,7 +7,8 @@ function Admin() {
   const recentUsers = [
     { id: 1, name: 'John Doe', email: 'john@example.com', joined: '2025-04-01' },
     { id: 2, name: 'Jane Smith', email: 'jane@example.com', joined: '2025-04-05' },
-    { id: 3, name: 'Robert Johnson', email: 'robert@example.com', joined: '2025-04-10' }
+    { id: 3, name: 'Robert Johnson', email: 'robert@example.com', joined: '2025-04-10' },
+    { id: 4, name: 'markderrick', email: 'markderrick@gmail.com', joined: '2024-04-10' }
   ];
 
   const recentPosts = [

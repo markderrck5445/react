@@ -7,7 +7,8 @@ import Contact from './pages/Contact';
 import Admin from './pages/Admin';
 import Services from './pages/Services';
 import Signup from './pages/signup';
-import Footer from './components/Footer';
+import Login from './pages/login';
+
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
            <Route path="/services" element={<Services/>} />
            <Route path="/about/" element={<About/>} />
            <Route path="/signup" element={<Signup/>} />
-           <Route path="/footer" element={<Footer/>} />
+           <Route path="/login" element={<Login/>} />
           </Routes>
         </div>
       </div>

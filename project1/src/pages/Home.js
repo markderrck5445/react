@@ -14,7 +14,7 @@ const Home=()=> {
         <h1 className="shilla">
          I am  
        <span> 
-        Belvin Mkoya
+        ..........
         </span> 
         </h1>
 
@@ -138,6 +138,7 @@ const Home=()=> {
     
     <div className="cardS-container">
   {/* Testimonial 1 */}
+  
   <div className="cardS">
     <div className="stars">
       {[...Array(5)].map((_, index) => (
