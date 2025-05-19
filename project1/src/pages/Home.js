@@ -6,6 +6,9 @@ import pic8 from '../img/pic8.jpg';
 import pic9 from '../img/pic9.jpg';
 import pic11 from '../img/pic11.jpg';
 import pic1 from '../img/pic1.jpg';
+import logo192 from '../img/logo192.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserAstronaut, faSpinner } from '@fortawesome/free-solid-svg-icons'
 import Footer from '../components/Footer';
 const Home=()=> {
   return (
@@ -242,7 +245,7 @@ const Home=()=> {
     <div className="footer-column">
       <h3><i className="fas fa-share-alt"></i> Socials</h3>
       <ul className="social-links">
-        <li><i className="fab fa-youtube"></i> <a href="#">Youtube</a></li>
+        <li><i className class="fa-brands fa-youtube"></i><a href="#">Youtube</a></li>
         <li>
           <i className="fab fa-facebook-f"></i> <a href="#">Facebook</a>
         </li>
@@ -258,7 +261,7 @@ const Home=()=> {
     </div>
 
     <div className="foot-logo">
-      <img src="./img/pic4.jpg.png" alt="logo"  />
+      <img src={logo192.png}/>
     </div>
       </div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import logo192 from '../img/logo192.png';
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
   <div class="footer-container">
     <div class="footer-column">
       <h3><i class="fas fa-store"></i> Links</h3>
-      <ul>
+      <ul className="orderd">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
@@ -34,7 +35,7 @@ function Footer() {
     </div>
 
     <div className="foot-logo">
-      <img src="./img/pic4.jpg.png" alt="logo"  />
+       <img src={logo192.png}/>
     </div>
      </div>
 
