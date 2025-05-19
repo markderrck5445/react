@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function SignUp() {
   const [formData, setFormData] = useState({
@@ -80,6 +81,8 @@ export default function SignUp() {
     }
   };
 
+  // We don't need the navigateToHome function anymore since we're using Link
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
@@ -94,12 +97,11 @@ export default function SignUp() {
             <p className="mt-1 text-sm text-gray-500">
               Your account has been created successfully.
             </p>
-            <button
-              className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition-colors duration-300"
-              onClick={() => setIsSuccess(false)}
+            <Link  to="/Home"
+              className="mt-6 block w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition-colors duration-300 text-center"
             >
-              Back to Sign Up
-            </button>
+              Proceed to Home
+            </Link>
           </div>
         ) : (
           <>
