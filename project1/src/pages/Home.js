@@ -6,6 +6,7 @@ import pic8 from '../img/pic8.jpg';
 import pic9 from '../img/pic9.jpg';
 import pic11 from '../img/pic11.jpg';
 import pic1 from '../img/pic1.jpg';
+import Footer from '../components/Footer';
 const Home=()=> {
   return (
     <div>
@@ -135,9 +136,14 @@ const Home=()=> {
             </div>
         </div>
     </div>
-    
+
+     {/* Testimonial 1 */}
+    <div class="title2">
+            <h2>What do client say <span>About me?</span></h2>
+        </div>
+
     <div className="cardS-container">
-  {/* Testimonial 1 */}
+ 
   
   <div className="cardS">
     <div className="stars">
@@ -193,6 +199,7 @@ const Home=()=> {
   </div>
 
   {/* Testimonial 3 */}
+
   <div className="cardS">
     <div className="stars">
       {[...Array(5)].map((_, index) => (
@@ -216,9 +223,45 @@ const Home=()=> {
         molestiae quas vel sint commodi repudiandae consequuntur.
       </p>
     </div>
-    <div className="author">— MARKDERRICK NGUYAGWA —</div>
+    <div className="author">— JOHN DOE —</div>
   </div>
 </div>
+
+<div class="footer-container">
+    <div class="footer-column">
+      <h3><i class="fas fa-store"></i> Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  
+
+    <div className="footer-column">
+      <h3><i className="fas fa-share-alt"></i> Socials</h3>
+      <ul className="social-links">
+        <li><i className="fab fa-youtube"></i> <a href="#">Youtube</a></li>
+        <li>
+          <i className="fab fa-facebook-f"></i> <a href="#">Facebook</a>
+        </li>
+        <li>
+          <i className="fab fa-instagram"></i> <a href="#">Instagram</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3><i class="fas fa-paper-plane"></i> CONTACT</h3>
+      <p>example@gmail.com</p>
+    </div>
+
+    <div className="foot-logo">
+      <img src="./img/pic4.jpg.png" alt="logo"  />
+    </div>
+      </div>
+
        
   </div>
     

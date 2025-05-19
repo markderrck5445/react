@@ -13,7 +13,7 @@ function Footer() {
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
-    </div>
+   
 
     <div className="footer-column">
       <h3><i className="fas fa-share-alt"></i> Socials</h3>
@@ -36,7 +36,7 @@ function Footer() {
     <div className="foot-logo">
       <img src="./img/pic4.jpg.png" alt="logo"  />
     </div>
-    
+     </div>
 
 
  </div>

@@ -8,6 +8,8 @@ import Admin from './pages/Admin';
 import Services from './pages/Services';
 import Signup from './pages/signup';
 import Login from './pages/login';
+import Footer from './components/Footer';
+import React from 'react';
 
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
            <Route path="/about/" element={<About/>} />
            <Route path="/signup" element={<Signup/>} />
            <Route path="/login" element={<Login/>} />
+           <Route path="/Footer" element={<Footer/>} />
           </Routes>
         </div>
       </div>

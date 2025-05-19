@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Import images
-// Note: You'll need to adjust these imports to match your project structure
 import pic6 from '../img/pic6.jpg';
 import pic7 from '../img/pic7.jpg';
 import pic8 from '../img/pic8.jpg';
