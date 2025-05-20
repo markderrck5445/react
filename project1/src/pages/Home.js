@@ -30,7 +30,7 @@ const Home=()=> {
      </div>
 
 <div className="title2">
-  <h2>Services <span> i Offer</span></h2>
+  <h2>Services <span> We Offer</span></h2>
 </div>
 
 
@@ -230,6 +230,136 @@ const Home=()=> {
   </div>
 </div>
 
+<section className="skills-section">
+        <div className="skills-container">
+          <div className="skills-title">
+            <h2>My Professional <span>Skills</span></h2>
+            <p>Expertise developed through years of creative practice and professional experience</p>
+          </div>
+
+          <div className="skills-grid">
+            {/* Photography Skill */}
+            <div className="skill-card">
+              <div className="skill-icon">
+                
+                <h3 className="skill-name">Photography</h3>
+              </div>
+              <p className="skill-description">
+                Expert in capturing moments with precision, specializing in portrait, landscape, and event photography with a unique artistic vision.
+              </p>
+              <div className="skill-level">
+           
+              </div>
+              <div className="skills-highlights">
+                <span className="skill-tag"><a href="Composition">Composition</a></span>
+                <span className="skill-tag"><a href="Lighting">Lighting</a></span>
+                <span className="skill-tag"><a href="Portrait">potrait</a></span>
+                <span className="skill-tag"><a href="Adobe Lightroom">Adobe Lightroom</a></span>
+              </div>
+            </div>
+
+            {/* Videography Skill */}
+            <div className="skill-card">
+              <div className="skill-icon">
+                <h3 className="skill-name">Videography</h3>
+              </div>
+              <p className="skill-description">
+                Creating compelling visual stories through expert camerawork, shot composition, and post-production techniques for various formats.
+              </p>
+              <div className="skill-level">
+             
+              </div>
+              <div className="skills-highlights">
+                <span className="skill-tag">Cinematography</span>
+                <span className="skill-tag">Color Grading</span>
+                <span className="skill-tag">Premiere Pro</span>
+                <span className="skill-tag">Storytelling</span>
+              </div>
+            </div>
+
+            {/* Podcast Production */}
+            <div className="skill-card">
+              <div className="skill-icon">
+                <h3 className="skill-name">Podcast Production</h3>
+              </div>
+              <p className="skill-description">
+                Full-service podcast creation including concept development, recording, editing, and distribution strategies to reach target audiences.
+              </p>
+              <div className="skill-level">
+              
+              </div>
+              <div className="skills-highlights">
+                <span className="skill-tag">Audio Editing</span>
+                <span className="skill-tag">Interviewing</span>
+                <span className="skill-tag">Scriptwriting</span>
+                <span className="skill-tag">Distribution</span>
+              </div>
+            </div>
+
+            {/* Content Writing */}
+            <div className="skill-card">
+              <div className="skill-icon">
+                
+                <h3 className="skill-name">Content Writing</h3>
+              </div>
+              <p className="skill-description">
+                Crafting engaging, SEO-optimized content across various formats including blogs, articles, website copy, and social media posts.
+              </p>
+              <div className="skill-level">
+                
+              </div>
+              <div className="skills-highlights">
+                <span className="skill-tag">SEO</span>
+                <span className="skill-tag">Copywriting</span>
+                <span className="skill-tag">Storytelling</span>
+                <span className="skill-tag">Research</span>
+              </div>
+            </div>
+
+            {/* Photo Editing */}
+            <div className="skill-card">
+              <div className="skill-icon">
+               
+                <h3 className="skill-name">Photo Editing</h3>
+              </div>
+              <p className="skill-description">
+                Professional photo manipulation, color correction, retouching, and restoration to transform ordinary images into extraordinary visuals.
+              </p>
+              <div className="skill-level">
+                
+              </div>
+              <div className="skills-highlights">
+                <span className="skill-tag">Photoshop</span>
+                <span className="skill-tag">Retouching</span>
+                <span className="skill-tag">Color Theory</span>
+                <span className="skill-tag">Compositing</span>
+              </div>
+            </div>
+
+            {/* Web Design */}
+            <div className="skill-card">
+              <div className="skill-icon">
+               
+                <h3 className="skill-name">Web Design</h3>
+              </div>
+              <p className="skill-description">
+                Creating visually appealing, user-friendly websites that effectively communicate brand messages and optimize user experience.
+              </p>
+              <div className="skill-level">
+               
+              </div>
+              <div className="skills-highlights">
+                <span className="skill-tag">HTML/CSS</span>
+                <span className="skill-tag">UI/UX</span>
+                <span className="skill-tag">Responsive Design</span>
+                <span className="skill-tag">WordPress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+{/* footer */}
 <div class="footer-container">
     <div class="footer-column">
       <h3><i class="fas fa-store"></i> Links</h3>

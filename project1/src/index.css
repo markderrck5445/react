@@ -1,5 +1,6 @@
  /* header and navbar */
  @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
  *{
   font-family: 'Spartan' sans-serif;
  }
@@ -10,7 +11,6 @@
   /* width: 100%; */
   position: relative;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
-   background: linear-gradient(120deg, #0d3edd 0%, #9ec4e9 100%);
   z-index: 1100;
 }
 
@@ -158,21 +158,19 @@
   position: relative;
   padding: 5px 0;
 }
-
-/* Active state for navbar items - highlights current page */
+/* Active link styling */
 .middle-navbar a.active {
   color: #007bff;
   font-weight: 600;
 }
 
-/* Active state - underline effect */
 .middle-navbar a.active::after {
   content: '';
   position: absolute;
-  bottom: -5px;
-  left: 0;
   width: 100%;
   height: 2px;
+  bottom: 0;
+  left: 0;
   background-color: #007bff;
 }
 
@@ -421,6 +419,8 @@
   /* Services styles */
 
   .container-con {
+    background-image: url('img/pic6.jpg');
+    background-size: cover;
     padding: 3rem 10%;
     display: flex;
     flex-direction: column;
@@ -452,7 +452,7 @@
 
 .title2 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     padding: 30px;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     padding: 2rem 0;
@@ -2047,6 +2047,191 @@ table th {
   
   .admin-profile span {
     display: none;
+  }
+}
+
+/* skills */
+/* Skills Section Styling */
+.skills-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  margin: 40px 0;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.skills-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.skills-title h2 span {
+  color: #007bff;
+}
+
+.skills-title h2:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background-color: #007bff;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.skills-title p {
+  color: #6c757d;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.skill-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.skill-icon {
+  font-size: 36px;
+  color: #007bff;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+/* 
+.skill-icon svg {
+  margin-right: 15px;
+} */
+
+.skill-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+  position: relative;
+}
+
+.skill-description {
+  color: #6c757d;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.skill-level {
+  background-color: #e9ecef;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.skill-progress {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  position: relative;
+  /* transition: width 1.5s ease-in-out; */
+}
+
+.skill-percent {
+  position: absolute;
+  right: 0;
+  top: -25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.skills-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.skill-tag {
+  background-color: rgba(0, 123, 255, 0.1);
+  color: #007bff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* Animation keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    padding: 20px;
+  }
+  
+  .skills-title h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skill-icon {
+    font-size: 30px;
+  }
+  
+  .skill-name {
+    font-size: 18px;
   }
 }
 
