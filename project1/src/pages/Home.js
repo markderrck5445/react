@@ -270,10 +270,9 @@ const Home=()=> {
              
               </div>
               <div className="skills-highlights">
-                <span className="skill-tag">Cinematography</span>
-                <span className="skill-tag">Color Grading</span>
-                <span className="skill-tag">Premiere Pro</span>
-                <span className="skill-tag">Storytelling</span>
+                <span className="skill-tag"><a href="Cinematography">Cinematography</a></span>
+                <span className="skill-tag"><a href="Color Grading">Color Grading</a></span>
+                <span className="skill-tag"><a href="Premiere Pro">Premiere Pro</a></span>
               </div>
             </div>
 
@@ -289,10 +288,9 @@ const Home=()=> {
               
               </div>
               <div className="skills-highlights">
-                <span className="skill-tag">Audio Editing</span>
-                <span className="skill-tag">Interviewing</span>
-                <span className="skill-tag">Scriptwriting</span>
-                <span className="skill-tag">Distribution</span>
+                <span className="skill-tag"><a href="Audio Editing">Audio Editing</a></span>
+                <span className="skill-tag"><a href="Interviewing">Interviewing</a></span>
+                <span className="skill-tag"><a href="Scriptwriting">Scripting</a></span>
               </div>
             </div>
 
@@ -309,10 +307,9 @@ const Home=()=> {
                 
               </div>
               <div className="skills-highlights">
-                <span className="skill-tag">SEO</span>
-                <span className="skill-tag">Copywriting</span>
-                <span className="skill-tag">Storytelling</span>
-                <span className="skill-tag">Research</span>
+                <span className="skill-tag"><a href="SEO">SEO</a></span>
+                <span className="skill-tag"><a href="Copywriting">Copywriting</a></span>
+                <span className="skill-tag"><a href="Research">Research</a></span>
               </div>
             </div>
 
@@ -329,10 +326,10 @@ const Home=()=> {
                 
               </div>
               <div className="skills-highlights">
-                <span className="skill-tag">Photoshop</span>
-                <span className="skill-tag">Retouching</span>
-                <span className="skill-tag">Color Theory</span>
-                <span className="skill-tag">Compositing</span>
+                <span className="skill-tag"><a href="Photoshop">Photoshop</a></span>
+                <span className="skill-tag"><a href="Retouching">Retouching</a></span>
+                <span className="skill-tag"><a href="Color Theory">Color Theory</a></span>
+                <span className="skill-tag"><a href="Compositing">Compositing</a></span>
               </div>
             </div>
 
@@ -349,10 +346,10 @@ const Home=()=> {
                
               </div>
               <div className="skills-highlights">
-                <span className="skill-tag">HTML/CSS</span>
-                <span className="skill-tag">UI/UX</span>
-                <span className="skill-tag">Responsive Design</span>
-                <span className="skill-tag">WordPress</span>
+                <span className="skill-tag"><a href="HTML/CSS">HTML/CSS</a></span>
+                <span className="skill-tag"><a href="UI/UX">UI/UX</a></span>
+                <span className="skill-tag"><a href="Responsive Design">Responsive Design</a></span>
+                <span className="skill-tag"><a href="WordPress">WordPress</a></span>
               </div>
             </div>
           </div>
