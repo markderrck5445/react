@@ -23,34 +23,81 @@
 .logo-container img {
   height: 50px;
   width: auto;
-}
+}/* Add this CSS to your stylesheet */
 
-/* Hamburger menu */
-.hamburger-menu {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 100;
-}
-
+/* Hamburger menu hover effect */
 .hamburger-menu button {
-  background: black;
+  transition: all 0.2s ease-in-out;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: transparent;
   border: none;
-  color: white;
   cursor: pointer;
-  padding: 5px;
 }
 
-.hamburger-menu svg {
-  width: 24px;
-  height: 24px;
+.hamburger-menu button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: scale(1.05);
 }
 
-/* Hide navbar on mobile when menu is closed */
+/* For better visibility of the hamburger icon on hover */
+.hamburger-menu button:hover svg {
+  color: #007bff; /* Change this to match your site's primary color */
+}
+
+/* Make sure the button is easily clickable on mobile */
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  z-index: 1000;
+  position: relative;
+}
+
+/* Hide navbar on mobile when hamburger menu is closed */
 .navbar-hidden {
-  display: none;
+  display: none !important;
 }
 
+/* Animation for mobile menu */
+.mobile-menu-panel {
+  animation: slideIn 0.3s ease-out forwards;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation for menu closing */
+.closing {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
 /* Top navbar */
 .top-navbar {
   background-color: #f8f9fa;

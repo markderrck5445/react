@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const location = useLocation(); // Get current location/route
+  const navRef = useRef(null); // Create a reference to navbar element
 
   // Check if screen is mobile size
   useEffect(() => {
@@ -22,6 +23,32 @@ function Navbar() {
     return () => window.removeEventListener('resize', checkScreenSize);
   }, []);
 
+  // Close menu when location changes (user clicks a link)
+  useEffect(() => {
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
+  }, [location]);
+  
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        if (isMenuOpen) {
+          setIsMenuOpen(false);
+        }
+      }
+    };
+    
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
+  }, [isMenuOpen]);
+
   // Toggle menu open/closed
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -33,7 +60,7 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar-container">
+    <div className="navbar-container" ref={navRef}>
       
       
       {/* Hamburger menu button - only visible on mobile */}
