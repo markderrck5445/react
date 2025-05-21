@@ -100,7 +100,7 @@ export default function SignUp() {
             <p className="mt-1 text-sm text-gray-500">
               Your account has been created successfully.
             </p>
-            <Link  to="/Home"
+            <Link  to="/"
               className="mt-6 block w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition-colors duration-300 text-center"
             >
               Proceed to Home
