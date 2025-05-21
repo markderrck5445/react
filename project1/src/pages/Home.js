@@ -266,7 +266,7 @@ const Home=()=> {
 
      {/* Testimonial 1 */}
     <div class="title2">
-            <h2>What do client say <span>About me?</span></h2>
+            <h2>What do client say <span>About Us?</span></h2>
         </div>
 
     <div className="cardS-container">
