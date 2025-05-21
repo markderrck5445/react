@@ -16,15 +16,11 @@ const Home=()=> {
       <div className="container-con">
      <div className="col-1">
         <h1 className="shilla">
-         I am  
-       <span> 
-        ..........
-        </span> 
+         Welcome to Our Creative Space 
         </h1>
 
         <p>
-        Welcome to my official website, a hub dedicated to creativity, storytelling, and personal growth. , and I am a writer, journalist, and creative strategist with a passion for exploring the power of words.
-        This platform serves as a space where I share my original poetry, thought-provoking articles, and insights into Creative Voice Mastery, a framework designed to help individuals unlock their full creative potential.
+        Discover creativity, storytelling, and inspiration. Explore my work, services, and journey as a writer, journalist, and creative strategist.
         </p>
      </div>
      </div>
@@ -88,7 +84,7 @@ const Home=()=> {
      {/* working */}
      <div className="container">
         <div class="disk">
-            <h2>HOW DO I <span>WORK?</span></h2>
+            <h2>HOW DO WE <span>WORK?</span></h2>
         </div>
         
         <div className="conti">
@@ -167,8 +163,7 @@ const Home=()=> {
       <img src={pic1}/>
       </div>
       <p className="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-        molestiae quas vel sint commodi repudiandae consequuntur.
+       We received expert podcast production and editing support. The final result was polished and engaging, helping us connect with our audience more effectively.
       </p>
     </div>
     <div className="author">— MATHEW ADAJI —</div>
@@ -194,8 +189,7 @@ const Home=()=> {
       <img src={pic1}/>
       </div>
       <p className="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-        molestiae quas vel sint commodi repudiandae consequuntur.
+        Their photography services captured our event perfectly. The images were vibrant, emotional, and beautifully edited, making our company stand out.
       </p>
     </div>
     <div className="author">— NJOKI —</div>
@@ -222,8 +216,7 @@ const Home=()=> {
       <img src={pic1}/>
       </div>
       <p className="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-        molestiae quas vel sint commodi repudiandae consequuntur.
+        The team delivered outstanding video content for our campaign—creative, professional, and always on time. Highly recommended for any business looking to elevate their brand.
       </p>
     </div>
     <div className="author">— JOHN DOE —</div>
@@ -233,7 +226,7 @@ const Home=()=> {
 <section className="skills-section">
         <div className="skills-container">
           <div className="skills-title">
-            <h2>My Professional <span>Skills</span></h2>
+            <h2>Our Professional <span>Skills</span></h2>
             <p>Expertise developed through years of creative practice and professional experience</p>
           </div>
 
