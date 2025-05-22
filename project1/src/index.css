@@ -23,7 +23,7 @@
 .logo-container img {
   height: 50px;
   width: auto;
-}/* Add this CSS to your stylesheet */
+}
 
 /* Hamburger menu hover effect */
 .hamburger-menu button {
@@ -42,7 +42,7 @@
 
 /* For better visibility of the hamburger icon on hover */
 .hamburger-menu button:hover svg {
-  color: #007bff; /* Change this to match your site's primary color */
+  color: #007bff; 
 }
 
 /* Make sure the button is easily clickable on mobile */
@@ -602,6 +602,38 @@
     .col-1 p {
         font-size: 1rem;
     }
+}
+
+
+/* disk */.booking-section {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.booking-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.booking-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.duration-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.duration-label, .price-label {
+  font-weight: bold;
+  color: #666;
 }
 
 
