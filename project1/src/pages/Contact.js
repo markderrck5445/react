@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo192 from '../img/logo192.png'; // Adjust the path as necessary
 
 function ContactForm() {
   const [formData, setFormData] = useState({
