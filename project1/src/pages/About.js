@@ -178,7 +178,7 @@ function About({ onBack }) {
     </div>
 
     <div className="foot-logo">
-      <img src={logo192.png}/>
+      <img src={logo192} alt="Logo" />
     </div>
       </div>
 

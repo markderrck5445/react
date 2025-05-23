@@ -202,7 +202,7 @@ const Services = () => {
           );
         })}
       </div>
-
+{/* footer */}
       <div className="footer-container">
         <div className="footer-column">
           <h3><i className="fas fa-store"></i> Links</h3>
