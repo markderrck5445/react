@@ -7,8 +7,7 @@ import pic9 from '../img/pic9.jpg';
 import pic11 from '../img/pic11.jpg';
 import pic1 from '../img/pic1.jpg';
 import logo192 from '../img/logo192.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserAstronaut, faSpinner } from '@fortawesome/free-solid-svg-icons'
+import pic2 from '../img/pic2.jpg.png';
 import Footer from '../components/Footer';
 const Home=()=> {
   return (
@@ -24,6 +23,10 @@ const Home=()=> {
         </p>
      </div>
      </div>
+
+      <div className="col-2">
+         <img src={pic2} />
+      </div>
 
 <div className="title2">
   <h2>Services <span> We Offer</span></h2>
